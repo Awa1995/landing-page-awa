@@ -1,0 +1,107 @@
+nav ul{
+	list-style-type: none;
+	display: inline-block;
+
+}
+nav li{
+	float: flex;
+	display: inline-block;
+}
+a{
+    text-decoration: none;
+    padding: 3px;
+}
+nav {
+    float:flex;
+    display:inline-block;
+}
+
+.img{
+    margin-right: 35em;
+    margin-left: 90px;
+}
+.sect{
+    background-image: url('garde.jpg');
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    
+    height: auto;
+}
+
+form {
+    
+    max-width: 200px;
+   
+    padding: 100px;
+    padding-top: 80px;
+    
+      
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  input[type="text"],
+  input[type="mail"],
+  input[type="number"] {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  button[type="submit"] {
+   
+    color: blue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+   color: blue;
+  }
+
+  h2 ,h4{
+    color: yellow;
+    padding-left: 100px;
+    padding-top: 50px;
+    font-size: 20px;
+  }
+h2{
+  font-size: 40px;
+  
+  color: yellow;
+}
+
+  .section{
+    background-color: gray;
+    margin-bottom: 10px;
+    margin-top: -25px;
+  }
+
+  h3,{
+    text-align: center;
+    padding: 20px;
+    position: relative;
+   
+  }
+  .div{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 100px;
+   
+  }
+  section p{
+    text-align: center;
+    text-decoration: solid;
+  }
+  section h6{
+    font-size: 20px;
+  }
